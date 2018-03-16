@@ -57,6 +57,9 @@ p {
   height: 110%;
   filter: brightness(65%); }
 
+.footer {
+  position: static; }
+
 .grid_item img {
   width: 300px;
   height: 200px; }
