@@ -57,8 +57,21 @@ p {
   height: 110%;
   filter: brightness(65%); }
 
-.footer {
-  position: static; }
+.footer img {
+  width: 2.5em;
+  height: auto;
+  border: 5px solid red;
+  float: left;
+  filter: brightness(75%); }
+  .footer img:hover {
+    filter: brightness(100%);
+    transition-ease: 0.4s; }
+
+.foot_5 {
+  float: right;
+  font-family: "VT323", monospace, sans-serif;
+  letter-spacing: 0.25em;
+  border: 5px solid blue; }
 
 .grid_item img {
   width: 300px;

@@ -89,10 +89,28 @@ body {
     height: 110%;
     filter: brightness(65%);
   }
-  .footer {
-    position: static;
+
+  .footer img {
+    width: 2.5em;
+    height: auto;
+    border: $std_border;
+    float: left;
+    filter: brightness(75%);
+    &:hover {
+      filter: brightness(100%);
+      transition-ease: 0.4s;
+    }
 
   }
+  .foot_5 {
+    float: right;
+    font: {
+      family: $footer_sig;
+    }
+    letter-spacing: 0.25em;
+    border: $blue_border;
+  }
+
   //grid rules
   .grid_item {
     img {
