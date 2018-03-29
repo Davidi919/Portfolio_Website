@@ -28,8 +28,8 @@ $main_font_stack: 'Open Sans', sans-serif;
 $footer_sig: 'VT323', monospace, sans-serif;
 //colors
 $a_color: #ff3;
-$a_hoverClr: #808080;
-$a_afterClr: #dbdb2a;
+$a_hoverClr: #00FFFF;
+$a_afterClr: #AEAC99;
 $grid_clrs: rgba(200,200,200,0.8);
 //borders
 $std_border: 5px solid red;
@@ -44,7 +44,7 @@ $pink_border: 5px solid pink;
 // General Rules
 body {
   text-align: center;
-  background-color: black;
+  background-color: #494738;
   color: white;
   font:{
     family: $main_font_stack;
@@ -57,6 +57,16 @@ body {
   a {
     color:$a_color;
     text-decoration: none;
+    &:hover {
+      color: $a_hoverClr;
+      text-decoration: underline;
+      transition: 0.3s;
+      transition-timing-function: ease;
+    }
+    &:after {
+      color: $a_afterClr;
+      transition: 0.3s;
+    }
     }
   ul {
     list-style-type: none;
@@ -98,7 +108,8 @@ body {
     filter: brightness(75%);
     &:hover {
       filter: brightness(100%);
-      transition-ease: 0.4s;
+      transition: 0.4s;
+
     }
 
   }
