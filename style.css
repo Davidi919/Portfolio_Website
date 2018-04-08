@@ -58,17 +58,17 @@ p {
   background-image: url(./media/backgrounds/wood_bg.jpg);
   position: fixed;
   top: -5%;
+  left: -5%;
   background-size: cover;
   z-index: -1;
   margin: 0;
-  width: 100%;
+  width: 105%;
   height: 110%;
   filter: brightness(65%); }
 
 .footer img {
   width: 2.5em;
   height: auto;
-  border: 5px solid red;
   float: left;
   filter: brightness(75%); }
   .footer img:hover {
@@ -78,8 +78,7 @@ p {
 .foot_5 {
   float: right;
   font-family: "VT323", monospace, sans-serif;
-  letter-spacing: 0.25em;
-  border: 5px solid blue; }
+  letter-spacing: 0.25em; }
 
 .grid_item img {
   width: 300px;
